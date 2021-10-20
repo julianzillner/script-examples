@@ -1,0 +1,8 @@
+<div id="api_lfm_description">Loading...</div>
+<script type="text/html" id="description_template" charset="utf-8">
+<%= "Beschreibung: " + this.description %>
+</script>
+<script type="text/javascript" charset="utf-8">
+laut.fm.station('STATIONSNAME')
+.info({container:'api_lfm_description', template:'description_template'}, true);
+</script>

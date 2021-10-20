@@ -1,0 +1,7 @@
+<div id="api_lfm_current_song1">Loading...</div>
+<script type="text/html" id="current_song_template1" charset="utf-8">
+<%= "Aktuell l&auml;uft: <br />" + this.artist.name + " - " + this.title %>
+</script> 
+<script type="text/javascript" charset="utf-8"> laut.fm.station('STATIONSNAME') 
+.current_song({container:'api_lfm_current_song1', template:'current_song_template1'}, true);
+</script>
